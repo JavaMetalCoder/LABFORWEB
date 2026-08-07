@@ -1,43 +1,63 @@
-Progetto Formativo LABFORWEB
-Il presente archivio documenta il percorso di acquisizione di competenze tecniche nello sviluppo software Full Stack, con particolare attenzione all'integrazione tra logica frontend e architetture backend.
+# LabForWeb Coursework
 
-Obiettivi del Corso
-L'attività formativa è finalizzata alla padronanza delle tecnologie necessarie per la progettazione e l'implementazione di applicazioni web scalabili. Il programma prevede una transizione metodica dallo sviluppo dell'interfaccia utente alla gestione della persistenza dei dati e della logica server-side.
+Archivio degli esercizi e dei progetti sviluppati durante il corso Full Stack Web LabForWeb / Nerd Academy, completato il 7 agosto 2026 dopo 650 ore di formazione.
 
-Competenze Tecniche
-Frontend Development
-Fondamentali: Implementazione di interfacce tramite HTML5 e CSS3.
+## Obiettivo del repository
 
-Logica Programmabile: Sviluppo in JavaScript (ES6+) con focus sulla manipolazione del DOM e gestione degli eventi.
+Questo repository documenta l'evoluzione del mio percorso tecnico: dai fondamenti del web allo sviluppo di applicazioni Angular. Non rappresenta una singola applicazione production-ready, ma una raccolta cronologica di esercizi, prove pratiche e piccoli progetti.
 
-Programmazione Asincrona: Integrazione di API tramite protocollo HTTP utilizzando AJAX, Promise e Fetch API.
+## Competenze allenate
 
-Framework: Sviluppo di Single Page Applications (SPA) con l'impiego di Angular 21.
+- HTML semantico e CSS responsive;
+- JavaScript moderno e manipolazione del DOM;
+- gestione degli eventi e validazione dei form;
+- chiamate HTTP e programmazione asincrona;
+- TypeScript e tipizzazione dei dati;
+- componenti, service, routing e form in Angular;
+- gestione dello stato con Signals;
+- Git e GitHub per il versionamento.
 
-Backend & Database Management (In fase di acquisizione)
-Linguaggi: Programmazione orientata agli oggetti con Java.
+## Contenuti principali
 
-Framework Enterprise: Implementazione di microservizi e API REST tramite Spring e Spring Boot.
+| Area | Argomenti |
+|---|---|
+| Fondamenti frontend | HTML5, CSS3, layout responsive |
+| JavaScript | DOM, eventi, array, oggetti, Promise e Fetch API |
+| TypeScript | tipi, interfacce e organizzazione del codice |
+| Angular | componenti standalone, service, routing, form e Signals |
 
-Data Management: Progettazione di database relazionali e interrogazione tramite MySQL.
+### Esercizi Angular rappresentativi
 
-Metodologia di Lavoro
-Il materiale contenuto in questa repository riflette l'applicazione pratica dei concetti teorici affrontati durante le sessioni di studio. Ogni modulo è finalizzato alla risoluzione di problematiche reali di sviluppo, garantendo l'aderenza agli standard di settore e la scrittura di codice pulito e manutenibile.
+- `dizionario`: gestione di parole, ricerca, componenti e stato condiviso;
+- `gestionale-task`: inserimento, elenco e dettaglio di task con form, routing e service;
+- esercizi progressivi dedicati a comunicazione tra componenti e gestione dello stato.
 
-Requisiti per la Riproduzione dell'Ambiente
-Per l'esecuzione degli applicativi sviluppati, è necessaria la configurazione dei seguenti ambienti:
+Il percorso complessivo ha incluso anche Java, Spring Boot e MySQL. I progetti backend più rappresentativi sono mantenuti in repository dedicati:
 
-Ambiente Node.js: Versione LTS per la gestione delle dipendenze tramite npm.
+- [Student Management API](https://github.com/fabiozagaria/student-management-api)
+- [Book Catalog API](https://github.com/fabiozagaria/book-catalog-api)
 
-Angular CLI: Installazione globale per la compilazione dei progetti frontend.
+## Come consultare il repository
 
-Java Development Kit (JDK): Versione 17 o superiore per il supporto ai framework Spring.
+Ogni cartella può avere requisiti differenti. Per un progetto Angular:
 
-MySQL Server: Per l'istanza del database e la gestione degli schemi.
+```bash
+git clone https://github.com/fabiozagaria/labforweb-coursework.git
+cd labforweb-coursework/labforweb/Angular/STOPCODE/gestionale-task
+npm install
+npm start
+```
 
-Stato di Avanzamento
-Moduli Frontend: Completati.
+Prima di avviare un esercizio, controlla il relativo `package.json` e la struttura della cartella.
 
-Moduli Angular: In fase di sviluppo avanzato.
+## Nota per recruiter e sviluppatori
 
-Moduli Backend: Programmati per le prossime sessioni didattiche.
+Questo archivio mostra la progressione formativa e la pratica quotidiana. Per una valutazione più immediata delle competenze applicate, consiglio di consultare i repository dedicati presenti nel mio [profilo GitHub](https://github.com/fabiozagaria).
+
+## Stato
+
+Percorso formativo completato. Il repository rimane come documentazione del lavoro svolto durante il corso.
+
+## Autore
+
+Fabio Zagaria — Junior Backend Developer con competenze full stack.
